@@ -558,6 +558,7 @@ nav img {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     color: #4B4B4B;
+    text-align: center;
 }
 
 .context-section  > h2{
@@ -643,3 +644,4 @@ details summary{
     color: beige;
     text-align: center;
 }
+
