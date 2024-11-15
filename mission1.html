@@ -24,7 +24,6 @@
                 <li><a href="mission1.html">MISSION 1</a></li>
                 <li><a href="mission2.html">MISSION 2</a></li>
                 <li><a href="mission3.html">MISSION 3</a></li>
-                <li><a href="mission4.html">MISSION 4</a></li>
                 <li><a href="conclusion.html">CONCLUSION</a></li>
             </ul>
         </div>
@@ -35,125 +34,47 @@
 
 
 <main>
-    <section id="mission1">
-
-        <div class="mission-wrapper">
-            <section class="mission-content">
-                <section class="mission-content">
-
-
-                    <!-- Numérotation 1a -->
-                    <div class="mission-section">
-                        <h3>1) a</h3>
-                        <p>Réponse explicative avec retour à la ligne<br>Exemple de réponse détaillée ici.</p>
-                        <div class="code-block">
-                            <pre><code>SELECT * FROM utilisateurs WHERE status = 'actif';</code></pre>
-                        </div>
-                        <div class="image-proof">
-                            <img src="assets/images/image1.jpg" alt="Description de l'image">
-                        </div>
-                    </div>
-
-                    <!-- Numérotation 1b -->
-                    <div class="mission-section">
-                        <h3>b</h3>
-                        <p>Réponse pour la question suivante<br>Continuation de la réponse.</p>
-                        <div class="code-block">
-                            <pre><code>INSERT INTO logs (action) VALUES ('connexion réussie');</code></pre>
-                        </div>
-                        <div class="image-proof">
-                            <<img src="assets/images/image1.jpg" alt="Description de l'image">
-                        </div>
-                    </div>
-
-                    <!-- Numérotation 1c -->
-                    <div class="mission-section">
-                        <h3>c</h3>
-                        <p>Texte explicatif additionnel pour la question<br>Autres informations pertinentes.</p>
-                        <div class="code-block">
-                            <pre><code>UPDATE utilisateurs SET status = 'inactif' WHERE id = 5;</code></pre>
-                        </div>
-                        <div class="image-proof">
-                            <img src="assets/images/image1.jpg" alt="Description de l'image">
-                        </div>
-                    </div>
-
-                    <!-- Numérotation 1d -->
-                    <div class="mission-section">
-                        <h3>d</h3>
-                        <p>Dernière réponse dans la série de questions<br>Informations finales ici.</p>
-                        <div class="code-block">
-                            <pre><code>DELETE FROM sessions WHERE expire < NOW();</code></pre>
-                        </div>
-                        <div class="image-proof">
-                            <img src="assets/images/image1.jpg" alt="Description de l'image">
-                        </div>
-                    </div>
-
-                    <!-- ON COLLE EN DESSOUS -->
-
-                </section>
-            </section>
-        </div>
-
+    <section id="mission3">
+        <section class="context-section">
+            <h2>CONTEXTE</h2>
+            <p>
+                KDou a fait appel à l'équipe de Malak, Chirine, Sofiane et Zakaria pour l’aider à prendre en charge l’évolution de son positionnement et son
+                organisation. Nous devions donc étudier et exploiter des données sur les clients, fournisseurs, commandes et articles.
+                Pour cette mission les données étaient organisées dans un fichier excel ainsi que dans des annexes contenant des statistiques sur leurs fournisseurs et clients.
+                Nous devions les interpreter pour ensuite proposer des solutions pour permettre à cette entreprise de se donner une image "éco-friendly".
+            </p>
+        </section>
 
         <!-- Tableau de résumé  A GARDER A LA FIN-->
         <div class="summary-table">
-            <h3 class="underline">Résumé des Problèmes :</h3>
+            <h3 class="Bilan">Bilan :</h3>
             <table>
                 <tr>
-                    <td>Problème logiciel</td>
-                    <td>Le logiciel X nous a limité.</td>
+                    <td>Excel est très peu efficaces pour le traitement de gros volumes de données <br>
+                        Il faut manipuler et compter les données à la main</td>
+                    <td><img src="assets/css/images/mission1_ergonomie.png" height="100" width="300" alt = "Grand extrait de tables"/></td>
                 </tr>
                 <tr>
-                    <td>Erreur de code</td>
-                    <td>Problème dans la requête SQL.</td>
+                    <td>Excel ne permet pas de faire des requêtes précises, les options sont limitées. <br>
+                        Nous avons donc des requêtes irréalisables ou imprécises! </td>
+                    <td class ="img-precision"><img src="assets/css/images/mission1_precision.PNG" height="200" width="100" alt = "Listes de quantitées par unités"/></td>
                 </tr>
                 <tr>
-                    <td>Temps de réponse</td>
-                    <td>Délai dû aux ressources limitées.</td>
+                    <td>Excel ne comporte de schéma relationnel, ce qui complexifie<br>
+                        les interprétations de tables et réalisations de requêtes</td>
+                    <td><img src="assets/css/images/mission1_selection.PNG" height="100" width="300" alt = "Résultat incompréhensible Nom + Date"/></td>
                 </tr>
                 <tr>
-                    <td>Problème réseau</td>
-                    <td>Interruption de la connexion.</td>
+                    <td>La fonction de tri est ne contient pas de choix multiples <br>
+                        Nous laissant avec un volume de données trop volumineux</td>
+                    <td><img src="assets/css/images/mission1_tri.png" height="200" width="300" alt = "Fonction tri d'Excel"/></td>
                 </tr>
             </table>
         </div>
 
 
-    <h3>Contexte</h3>
-
-
-    <div>
-        <details>
-            <summary>Qui est KDou ?</summary>
-            <p>KDou est une entreprise commerciale qui propose à ses clients des produits alimentaires d’épicerie fine ou
-                typiques achetés à des fournisseurs situés dans le monde entier. Tous les clients de l’entreprise se situent
-                actuellement en France.
-                L'entreprise considère générer un assez bon chiffre d'affaires et se pose des questions sur sa rentabilité.
-                Elle réfléchit à mieux se positionner par rapport à ses concurrents. De plus, KDou souhaite se donner une image
-                plus "éco-friendly" tout en augmentant son bénéfice en vendant des produits plus respectueux de l’environnement,
-                pour lesquels les consommateurs seraient prêts à payer plus cher ou d’autres solutions.
-                KDou fait appel à votre équipe pour l’aider à prendre en charge l’évolution de son positionnement et son
-                organisation. Vous devrez étudier et exploiter ces données dans plusieurs missions pour réfléchir au
-                fonctionnement de l'entreprise KDou pour ensuite proposer des solutions pour permettre à cette entreprise de se
-                donner une image "éco-friendly".
-            </p>
-        </details>
-
-        <details>
-            <summary>Contexte</summary>
-            <p>
-                KDou fait appel à l'équipe de Malak, Chirine, Sofiane et Zakaria pour l’aider à prendre en charge l’évolution de son positionnement et son
-                organisation. Nous devrons donc étudier et exploiter ces données dans plusieurs missions pour réfléchir au
-                fonctionnement de l'entreprise KDou pour ensuite proposer des solutions pour permettre à cette entreprise de se
-                donner une image "éco-friendly".
-            </p>
-        </details>
-    </div>
-
-
         <section class="context-section">
+            <h3>Conclusion</h3>
             <p>
                 Nous devrions tout d’abord quitter Excel, peu pratique et assez rigide comparé à Microsoft
                 Access qui est assez intuitif et permet bien plus d’options / commandes pour manipuler les
@@ -171,7 +92,6 @@
             </p>
         </section>
     </section>
-
 </main>
 <footer>
     <p>© 2024 KDou Rapport Base de Données</p>
