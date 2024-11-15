@@ -575,7 +575,7 @@ nav img {
 
 /* Style des en-têtes */
 .indicators-table th {
-    background-color: darkolivegreen;
+    background-color: #4B4B4B;
     color: white;
     padding: 10px;
     text-align: left;
@@ -601,7 +601,6 @@ nav img {
 /*mission1 pour le contexte et "qui est kdou"*/
 details summary{
     border-style: double;
-    border-color: #A57A5A;
     border-width: 3px;
 }
 
@@ -618,7 +617,7 @@ details summary{
 .summary-table {
     margin: 20px auto;
     width: 100%;
-    background-color: darkolivegreen;
+    background-color: #4B4B4B;
     border-radius: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -630,12 +629,17 @@ details summary{
 
 .summary-table td {
     padding: 10px;
-    border: 1px solid darkolivegreen;
+    border: 1px solid #4B4B4B;
     background-color: beige;
-    color: darkolivegreen;
+    color: #4B4B4B;
 }
 
 .summary-table td:first-child {
     text-align: left;
 
+}
+
+.Bilan {
+    color: beige;
+    text-align: center;
 }
