@@ -2,9 +2,9 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ACCUEIL</title>
+  <title>Mission 2</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,67 +14,69 @@
 
 
 <body>
-<header>
-  <nav>
-    <div class="nav-links">
-      <ul>
-        <li><a href="index.html">ACCUEIL</a></li>
-        <li><a href="mission1.html">MISSION 1</a></li>
-        <li><a href="mission2.html">MISSION 2</a></li>
-        <li><a href="mission3.html">MISSION 3</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
+  <header>
+    <div class="text-box">
+      <h1>MISSION 2</h1>
     </div>
-  </nav>
+    <nav>
+      <div class="nav-links">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+          <li><a href="index.html">ACCUEIL</a></li>
+          <li><a href="mission1.html">MISSION 1</a></li>
+          <li><a href="mission2.html">MISSION 2</a></li>
+          <li><a href="mission3.html">MISSION 3</a></li>
+          <li><a href="conclusion.html">CONCLUSION</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  <div class="text-box">
-    <h1>KDOU'S BUSINESS</h1>
-  </div>
-</header>
+  </header>
 
-<section id="mission2">
-  <h2>Mission 2: </h2>
-  <p>........(le contexte).........</p>
+<main>
+  <section id="mission2">
+    <h1>Contexte</h1>
+    <p>
+      <br>
+      L'objectif principal de cette mission est d'explorer et d'analyser la base de données de l'entreprise
+      KDou en utilisant une interface <strong>low-code</strong>, plus précisément le logiciel <strong>Microsoft
+      Access</strong>. Ce dernier permet de créer des requêtes grâce à une interface graphique (QBE)
+      qui génère le code SQL correspondant. Cela permet une exploitation plus efficace des données sans avoir
+      une maîtrise particulière du langage SQL.
+      </br>
+    </p>
 
-  <h3>Faut qu'on mette 4 indicateur avec pour chacun:</h3>
+    <h3>INDICATEURS PERTINENTS :</h3>
 
-
+  </section>
 
   <div class="card2-container">
 
     <article class="card2">
       <header>
-        <h4>1er Indicateur:
-          Chiffre d'Affaire</h4>
+        <h4>1er Indicateur: CHIFFRE D'AFFAIRE</h4>
       </header>
       <div class="content">
 
 
         <ol>
-          <li><h4>Énoncé et interprétation:</h4></li>
+          <li><h4>Énoncé:</h4></li>
 
           <ul>
-            <li>Énoncé: n)On veut le chiffre d’affaire total généré avec les informations dont on dispose.</li>
-            <li>Interprétation:</li>
+            <li>Cet indicateur permet d'analyser le chiffre d'affaire total généré avec les données qu'on dispose.</li>
           </ul>
 
-          <li>Résultat (copies écran et/ou tableaux)</li>
+          <li><strong>Résultat :</strong></li>
+          <span>
+              <img src="Sans titre.png" height="48" width="130"/>
+
+          </span>
 
 
-          <li><section class="card-2">
-            <div class="dropdown-CF">
-              <button class="CF">QBE ou Code SQL généré</button>
-              <div class="dropdown-CF-content">
-                <ul class="dropdown-">
-                  <li>
-                    <strong>SQL</strong>
+          <li><strong>QBE ou SQL :</strong></li>
 
-                  </li>
-                  <li>QBE</strong></li>
-                </ul>
-              </div>
+          <img src="qbe1.png" height="132" width="458"/>
 
-            </div>
           </section>
           </li>
         </ol>
@@ -85,19 +87,34 @@
 
     <article class="card2">
       <header>
-        <h4>2ème Indicateur:
-          Taux de clients actifs / inactifs</h4>
+        <h4>2ème Indicateur: </h4>
+        <span><strong>TOP 3 VILLES</strong></span>
+        <ol>
+          <li><h4>Énoncé:</h4></li>
+
+          <ul>
+            <li>Cet indicateur permet de voir les trois villes où la clientèle est la plus importante.</li>
+
+          </ul>
+
+          <li><strong>Résultat :</strong></li>
+          <span>
+
+
+              <img src="top3.png" height="104" width="210"/>
+          </span>
+
+
+          <li><strong>QBE ou SQL :</strong></li>
+
+
+          <img src="top3sql.png" height="124" width="400"/>
+          </span>
+        </ol>
       </header>
 
       <div class="content">
-        <img src="https://raw.githubusercontent.com/laurentgiustignano/logos/29e8719bf78915c7a82a26a6c203f53c4cb8fff2/logos/mapzen-icon.svg" alt="Logo de KDou" class="logo">
 
-
-        <ol>
-          <li>Énoncé et interprétation</li>
-          <li>Résultat (copies écran et/ou tableaux)</li>
-          <li>QBE ou Code SQL généré</li>
-        </ol>
 
       </div>
     </article>
@@ -106,41 +123,67 @@
 
     <article class="card2">
       <header>
-        <h4>3ème Indicateur:
-          Nombre de commandes par produit ou catégorie</h4>
+        <h4>3ème Indicateur:</h4>
+        <span><strong>PRIX</strong></span>
       </header>
       <div class="content">
-        <img src="https://raw.githubusercontent.com/laurentgiustignano/logos/29e8719bf78915c7a82a26a6c203f53c4cb8fff2/logos/mapzen-icon.svg" alt="Logo de KDou" class="logo">
-
-
         <ol>
-          <li>Énoncé et interprétation</li>
-          <li>Résultat (copies écran et/ou tableaux)</li>
-          <li>QBE ou Code SQL généré</li>
+          <li><h4>Énoncé:</h4></li>
+          <p>
+            Cet indicateur permet d’analyser les gammes de prix des produits de l’entreprise.<br>
+          </p>
+          <li><strong>Résultat :</strong></li>
+
+          <span>
+
+      <img src="3eresultat.png" height="42" width="306"/>
+
+          </span>
+
+          <li><strong>QBE ou SQL :</strong></li>
+
+
+          <img src="qbe3eme.png" height="110" width="388"/>
         </ol>
+
       </div>
     </article>
 
 
     <article class="card2">
       <header>
-        <h4>4ème Indicateur:
-          Nombre de clients par région/villes clés</h4>
+        <h4>4ème Indicateur:</h4>
+        <span><strong>EMBALLAGES PRODUITS</strong></span>
       </header>
       <div class="content">
-        <img src="https://raw.githubusercontent.com/laurentgiustignano/logos/29e8719bf78915c7a82a26a6c203f53c4cb8fff2/logos/mapzen-icon.svg" alt="Logo de KDou" class="logo">
 
 
         <ol>
-          <li>Énoncé et interprétation</li>
-          <li>Résultat (copies écran et/ou tableaux)</li>
-          <li>QBE ou Code SQL généré</li>
-        </ol>
+          <li><h4>Énoncé:</h4></li>
+          <p>
+            Cet indicateur permet d’analyser les produits qui sont conditionnés dans du carton ou du verre.
+          </p>
+          <li><strong>Résultat :</strong></li>
+
+          <span>
+
+      <img src="resultat4e.png" height="258" width="170"/>
+
+          </span>
+
+          <li><strong>QBE ou SQL :</strong></li>
+
+
+          <img src="qbe4.png" height="124" width="288"/></ol>
 
       </div>
     </article>
   </div>
-</section>
+  </section>
+</main>
+  <footer>
+    <p>© 2024 KDou Rapport Base de Données</p>
+  </footer>
 </body>
 
 </html>
