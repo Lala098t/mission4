@@ -43,7 +43,7 @@ nav {
     width: 100%;
     box-sizing: border-box;
     flex-wrap: wrap;
-    background-image: url("https://img.freepik.com/premium-vector/fresh-fruit-background-design_8499-9577.jpg?w=1800");
+    background-color: #E9D4C3;
     background-size: cover; /* Pour couvrir toute la largeur et hauteur de l'élément */
     background-position: center; /* Centre l'image */
 
@@ -68,14 +68,14 @@ nav img {
 
 .nav-links ul li {
     display: inline-flex;
-    padding: 10px 50px;
+    padding: 10px 30px;
 }
 
 .nav-links ul li a {
     color: #4B4B4B;
     text-decoration: none;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 20px;
     position: relative;
     padding-bottom: 5px;
     transition:  color 0.3s, border-bottom 0.3s;
@@ -261,7 +261,7 @@ section p {
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: #E9D4C3;
     color: #FAF3E0;
 
     text-align: center;
@@ -271,7 +271,7 @@ footer {
 
 
 .card {
-    background-color: darkolivegreen;
+    background-color: #4B4B4B;
     color: #FAF3E0;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -558,6 +558,10 @@ nav img {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     color: darkolivegreen;
+}
+
+.context-section  > h2{
+    padding: 0;
 }
 
 /* css du tableau */
